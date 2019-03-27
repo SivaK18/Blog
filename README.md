@@ -1,5 +1,5 @@
 <h1 align="center">Blog CMS</h1>
-<h3 align="right">This is a web proj by </18> and Bharath K.</h3>
+<h3 align="right">This is a web proj by &lt /18 &gt and Bharath K.</h3>
 <p>A blogging system built in php that has an admin user, registration of regular users/bloggers
 and will eventually be able to have subscribers (admin has the rights to add or remove them). This specific code base is a little messy so far but
 it will be under continuous refactoring for a while. But feel free to check it out and play with it yourself. </p>
