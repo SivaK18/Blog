@@ -5,20 +5,19 @@
        <div class="col-lg-3 col-md-6 col-sm-6">
          <div class="single-footer-widget">
            <h6 class="footer_title">About Us</h6>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore
-             magna aliqua.</p>
+           <p><b>Siva Kailash . S </b> &lt/18&gt  Third year B.E CSE,CEG <br><b> Barath Kumar V </b> Third year B.E CSE,CEG</p>
+
          </div>
        </div>
        <div class="col-lg-3 col-md-6 col-sm-6">
          <div class="single-footer-widget">
-           <h6 class="footer_title">Newsletter</h6>
-           <p>Stay updated with our latest trends</p>
+
            <div id="mc_embed_signup">
              <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
               method="get" class="subscribe_form relative">
                <div class="input-group d-flex flex-row">
-                 
-                 <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+
+
                </div>
                <div class="mt-10 info"></div>
              </form>
@@ -41,8 +40,8 @@
        </div>
      </div>
      <div class="row footer-bottom d-flex justify-content-between align-items-center">
-       <p class="col-lg-12 footer-text text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://github.com/SivaK18" target="_blank">SK</a> and <a href="bharathkumarv@gmail.com">Barathkumar </a>
+       <p class="col-lg-12 footer-text text-center id="txtsiv" "><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<script>document.write(new Date().getFullYear());</script> All rights reserved | This site is made by <a href="https://github.com/SivaK18" target="_blank">&lt/18&gt</a> and <a href="bharathkumarv@gmail.com">Barathkumar </a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
      </div>
    </div>
@@ -57,6 +56,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/linearicons.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500" rel="stylesheet">
 
 </body>
 </html>

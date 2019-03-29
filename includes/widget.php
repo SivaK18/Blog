@@ -1,5 +1,5 @@
 <!-- Side Widget Well -->
 <div class="well">
-    <h4>Side Widget Well</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+    <h4>About us</h4>
+    <p><b>Siva Kailash . S </b> &lt/18&gt  Third year B.E CSE,CEG <br><b> Barath Kumar V </b> Third year B.E CSE,CEG</p>
 </div>

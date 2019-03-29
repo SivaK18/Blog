@@ -1,7 +1,7 @@
 <?php
 include_once 'includes/db.php';
 try{
-  $query = "SELECT * FROM (SELECT  * FROM  posts WHERE  1 ORDER BY rand() LIMIT 1) q ORDER BY post_id";
+  $query = "SELECT * FROM (SELECT  * FROM  posts WHERE  5 ORDER BY rand() LIMIT 5) q ORDER BY post_id";
   $stmt = $conn->prepare($query);
   $stmt->execute();
 

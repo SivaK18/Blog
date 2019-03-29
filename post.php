@@ -1,4 +1,4 @@
-<?php 
+<?php
 require 'bootstrap.php';
 include 'includes/header.php';
 ?>
@@ -7,10 +7,7 @@ include 'includes/header.php';
         <div class="row">
             <!-- Blog Entries Column -->
             <div style="background: #EDEDED; border-radius: 10px;" class="col-md-8">
-                <h1 class="page-header">
-                    Page Heading
-                    <small>Secondary Text</small>
-                </h1>
+
                 <!-- Blog Post -->
                 <?php
                 if(isset($_GET['p_id'])){
@@ -117,7 +114,7 @@ include 'includes/header.php';
                 }
                 ?>
 
-                <!-- Comment -->
+                <!-- Comment
                 <div class="media">
                     <a class="pull-left" href="#">
                         <img class="media-object" src="http://placehold.it/64x64" alt="">
@@ -127,7 +124,7 @@ include 'includes/header.php';
                             <small>August 25, 2014 at 9:30 PM</small>
                         </h4>
                         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        <!-- Nested Comment -->
+
                         <div class="media">
                             <a class="pull-left" href="#">
                                 <img class="media-object" src="http://placehold.it/64x64" alt="">
@@ -139,9 +136,8 @@ include 'includes/header.php';
                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                             </div>
                         </div>
-                        <!-- End Nested Comment -->
-                    </div><!-- end of .media-body -->
-                </div><!-- end of .media -->
+                        End Nested Comment -->
+
             </div>
             <!-- / blog entries column -->
             <?php include 'includes/sidebar.php'; ?>

@@ -1,5 +1,5 @@
 <?php ob_start(); ?>
-        <?php 
+        <?php
         if(isset($role)){
             if($role === 'Admin'){
                 $postsQuery = "SELECT * FROM posts";
@@ -47,7 +47,7 @@
                     $vstm->bindParam(":id", $post_category_id);
                     $vstm->execute();
 
-                    while($cat = $vstm->fetch(PDO::FETCH_OBJ)){ 
+                    while($cat = $vstm->fetch(PDO::FETCH_OBJ)){
                         $cat_id = $cat->cat_id;
                         $cat_title = $cat->cat_title;
 
@@ -85,17 +85,18 @@
                     echo "<td><button class='btn btn-danger'><a style='color:#fff;' href='posts.php?delete=$post->post_id'>Delete</a></button></td>";
                     echo "<td><button class='btn btn-info'><a style='color:#fff;' href='posts.php?source=edit_post&p_id=$post->post_id'>Edit</a></button></td>";
                     echo "</tr>";
-                    $table_footer_output = "</tbody>
-                                        </table>";
-                    echo $table_footer_output;
+
                 }
+                $table_footer_output = "</tbody>
+                                    </table>";
+                echo $table_footer_output;
             } else {
                 echo "<h3 class='alert alert-info'><strong>Sorry! </strong>There are no current posts. Click<a style='text-decoration: underline;' href='posts.php?source=add_post'> Here </a> to add a post.</h3>";
             }
         }
         ?>
 
-<?php 
+<?php
 if(isset($_GET['delete'])){
  try{
     $postId = $_GET['delete'];

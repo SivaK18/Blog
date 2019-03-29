@@ -1,5 +1,5 @@
 .footer-area {
-  background: #F5F5F5; }
+  background: #383838; }
 
 @media (max-width: 991px) {
   .single-footer-widget {
@@ -91,17 +91,22 @@
   background: #333333;
   margin-top: 30px; }
 
+txtsiv {
+color: #FFF
+}
 .footer-bottom {
   padding-top: 50px; }
   @media (max-width: 991px) {
     .footer-bottom {
       padding-top: 20px; } }
   .footer-bottom .footer-text {
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+  color: #828bb2;
+}
     .footer-bottom .footer-text i {
-      color: #7c32ff; }
+      color: #828bb2; }
     .footer-bottom .footer-text a {
-      color: #7c32ff; }
+      color: #828bb2; }
   .footer-bottom .footer-social {
     text-align: right; }
     .footer-bottom .footer-social a {
